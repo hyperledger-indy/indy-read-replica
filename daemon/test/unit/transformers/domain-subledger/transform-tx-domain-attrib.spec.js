@@ -168,5 +168,5 @@ describe('domain/attrib transaction transformations', () => {
     expect(processedTx.txn.typeName).toBe('ATTRIB')
     expect(processedTx.txn.data.dest).toBe(processedTx.txn.metadata.from)
   })
-  // https://github.com/hyperledger/indy-node/blob/master/docs/source/auth_rules.md
+  // https://github.com/hyperledger-indy/indy-node/blob/master/docs/source/auth_rules.md
 })

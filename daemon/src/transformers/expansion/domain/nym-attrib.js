@@ -1,7 +1,7 @@
 const { composeFullVerkey } = require('indyscan-txtype/src/util')
 const { isAbbreviatedVerkey } = require('indyscan-txtype/src/util')
 
-// https://github.com/hyperledger/indy-sdk/blob/315ea1ef63830529b57c20ee45212ad5ce90fd0a/libindy/src/domain/ledger/constants.rs#L37
+// https://github.com/hyperledger-indy/indy-sdk/blob/315ea1ef63830529b57c20ee45212ad5ce90fd0a/libindy/src/domain/ledger/constants.rs#L37
 const ROLE_ACTIONS = {
   0: 'SET_TRUSTEE',
   2: 'SET_STEWARD',
